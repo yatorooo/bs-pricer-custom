@@ -17,7 +17,7 @@ bool parse_ymd(const std::string& s, Date& out);
 long long civil_to_days(int y, int m, int d);
 
 // return days difference
-long long days_between(const Date& a, const &Date b);
+long long days_between(const Date& a, const Date& b);
 
 // ACT/365F day count fraction
 double year_fraction_act365(const Date& start, const Date& end);

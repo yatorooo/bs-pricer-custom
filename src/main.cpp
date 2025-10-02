@@ -8,7 +8,7 @@
 
 int main(int argc, char** argv) {
     if (argc < 3) {
-        std::cerr << "Usage: ./bs_pricer_ql --chain ../data/option_chain_sample.csv --out results.csv\n";
+        std::cerr << "Usage: ./bs_pricer_custom --chain ../data/option_chain_sample.csv --out results.csv\n";
         return 1;
     }
     std::string chainPath, outPath;
